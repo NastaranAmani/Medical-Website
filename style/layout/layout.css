@@ -1,0 +1,11 @@
+@import './reset.css';
+@import '../header.css';
+@import '../footer.css';
+@import '../hero.css';
+@import '../search-box.css';
+@import '../popular-search.css';
+@import '../find-doctor.css';
+@import '../choose-wecare.css';
+@import '../meet-specialist.css';
+@import '../patients-feedback.css';
+@import '../subscribe.css';

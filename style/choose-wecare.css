@@ -1,0 +1,50 @@
+#choose-wecare {
+    background-color: var(--accent-color);
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.choose-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.choose-left-item img {
+    bottom: 0;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.choose-right-item h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5.5rem;
+}
+.check-item {
+    display: flex;
+    line-height: 3.5rem;
+    padding-top: 1rem;
+}
+.consult-btn {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 1.5rem 3rem;
+    margin-top: 2rem;
+}
+/* .check-item img {
+    width: 15px;
+    height: 15px;
+    margin: 0.7rem 0.5rem 0 0;
+} */
+
+.square-fill {
+    margin: 10rem 0 0 7rem;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #d6dff3;
+    border-radius: 40% 10%;
+}
+.fa-circle-check {
+    color: var(--primary-color);
+    margin: 1.5rem 0.5rem 0 0;
+}

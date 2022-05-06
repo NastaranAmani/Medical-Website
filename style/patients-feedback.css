@@ -1,0 +1,67 @@
+#patients-feedback {
+    padding-top: 10rem;
+}
+.feedback-wrapper h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.feedback-wrapper {
+    text-align: center;
+}
+.feedback-total {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.feedback-left-item img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.patient-content {
+    display: flex;
+    padding-top: 5rem;
+}
+.patient-profile {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 2rem;
+    background-color: #02dbbe;
+}
+.patient-content h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.patient-content span {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+.feedback-behind-circle {
+    margin-top: 20rem;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: #eff4ff;
+    border-radius: 1rem;
+}
+.star {
+    width: 15px;
+    height: 15px; 
+}
+.feedback-right-item {
+    padding: 5rem 0 0 5rem;
+}
+.feedback-right-item p {
+    color: var(--secondary-color);
+    padding-top: 2rem;
+}
+.patient-info {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
