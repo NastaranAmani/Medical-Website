@@ -117,6 +117,16 @@
         transform: rotate(360deg)translate(-258px)rotate(-360deg);
     }
 }
+@-webkit-keyframes circle-3 {
+    0% {
+        transform: rotate(0deg)translate(-258px)rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg)translate(-258px)rotate(-360deg);
+    }
+}
+
+
 @keyframes circle-2 {
     0% {
         transform: rotate(0deg)translate(-200px)rotate(0deg);
@@ -125,7 +135,25 @@
         transform: rotate(360deg)translate(-200px)rotate(-360deg);
     }
 }
+@-webkit-keyframes circle-2 {
+    0% {
+        transform: rotate(0deg)translate(-200px)rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg)translate(-200px)rotate(-360deg);
+    }
+}
+
+
 @keyframes circle-1 {
+    0% {
+        transform: rotate(0deg)translate(-145px)rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg)translate(-145px)rotate(-360deg);
+    }
+}
+@-webkit-keyframes circle-1 {
     0% {
         transform: rotate(0deg)translate(-145px)rotate(0deg);
     }
