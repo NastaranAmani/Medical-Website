@@ -1,11 +1,14 @@
 #choose-wecare {
     background-color: var(--accent-color);
     margin-top: 5rem;
-    padding-top: 5rem;
+    padding: 4rem 0;
 }
 .choose-wrapper {
     display: flex;
     justify-content: space-around;
+}
+.choose-right-item {
+    padding-top: 3rem;
 }
 .choose-left-item img {
     bottom: 0;
