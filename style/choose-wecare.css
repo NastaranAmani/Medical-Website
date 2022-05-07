@@ -1,7 +1,7 @@
 #choose-wecare {
     background-color: var(--accent-color);
     margin-top: 5rem;
-    padding: 4rem 0;
+    padding: 4rem;
 }
 .choose-wrapper {
     display: flex;
@@ -11,6 +11,7 @@
     padding-top: 3rem;
 }
 .choose-left-item img {
+    margin-top: 1rem;
     bottom: 0;
     position: relative;
     width: 500px;
@@ -43,9 +44,9 @@
     margin: 10rem 0 0 7rem;
     position: absolute;
     width: 400px;
-    height: 400px;
+    height: 410px;
     background-color: #d6dff3;
-    border-radius: 40% 10%;
+    border-radius: 40% 10% 10% 10%;
 }
 .fa-circle-check {
     color: var(--primary-color);
