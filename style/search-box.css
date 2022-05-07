@@ -48,6 +48,9 @@
     background-color: var(--accent-color);
     margin-left: 1rem;
 }
+.closing-btn:hover {
+    color: var(--primary-color);
+}
 .fa-xmark {
     margin-left: 0.5rem;
 }
