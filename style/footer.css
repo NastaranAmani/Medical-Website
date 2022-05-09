@@ -51,55 +51,53 @@
     font-weight: 300;
     display: block;
     transition: all 0.2s ease-in-out;
-}
-.footer-col ul li a:hover {
-  transition: all 0.2s ease-in-out;
-  font-weight: 600;
+
 }
 
-.footer-col .social-links a {
+
+
+  /* ----------------------------------------------------------------------------------- */
+  .footer-col ul li a {
+    position: relative;
     display: inline-block;
-    height: 3rem;
-    width: 3rem;
+    font-size: 1em;
+    font-weight: 500;
+    overflow: hidden;
+    background: linear-gradient(to right, #102851, #102851 50%, #96989e 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+  }
+  .footer-col ul li a:hover {
+    background-position: 0 100%;
+  }
+  
+
+  /* -------------------------------------------------- */
+  
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
     text-align: center;
-    border-radius: 0.5rem;
+    line-height: 40px;
+    border: solid 1px var(--secondary-color);
+    border-radius: 50%;
     transition: all 0.3s ease;
-    margin-right: 0.5rem;
-}
-.footer-col .social-links a:hover {
-        -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .footer-col .social-links i {
     color: var(--dark-color);
-
 }
-
-
-/* ----------------------------------------------------------- */
-
- @-webkit-keyframes rotate-in-center {
-    0% {
-      -webkit-transform: rotate(-360deg);
-              transform: rotate(-360deg);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-      opacity: 1;
-    }
-  }
-  @keyframes rotate-in-center {
-    0% {
-      -webkit-transform: rotate(-360deg);
-              transform: rotate(-360deg);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-      opacity: 1;
-    }
-  }
-  
+.footer-col .social-links a:hover {
+    transform: translateY(0.2rem);
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+}
+.footer-col a:hover i {
+  color: var(--dark-color);
+}

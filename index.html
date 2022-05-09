@@ -13,6 +13,17 @@
     <link rel="stylesheet" href="style/layout/layout.css">
 </head>
 <body>
+    <!------------------------ pre-loader ----------------------------->
+    <div class="preloader">
+        <div class="container-fluid">
+          <div class="spinner">
+            <span class="ball-1"></span>
+            <span class="ball-2"></span>
+            <span class="ball-3"></span>
+            <span class="ball-4"></span>
+          </div>
+        </div>
+      </div>
     <header id="header">
         <div class="container">
             <div class="navbar-wrapper">
@@ -40,7 +51,7 @@
 
     <main>
         <section id="hero">
-            <div class="hero-container">
+            <div class="container">
                 <div class="hero-wrapper">
                     <div class="hero-left-item">
                         <h1>
@@ -60,25 +71,27 @@
                                 <p>More Than 10 Million <br>
                                 Patient Ratings</p>
                             </div>
+                            
                         </div>
                     </div>
                     <div class="hero-right-item">
                         <div class="circle-behind-1">
                             <div class="moving-circle-1">
-                                <i class="fa-solid fa-stethoscope"></i>
+                                
+                                <!-- <i class="fa-solid fa-stethoscope"></i> -->
                             </div>
                         </div>
                         <div class="circle-behind-2">
                             <div class="moving-circle-2">
-                                <i class="fa-solid fa-pills"></i>
+                                <!-- <i class="fa-solid fa-pills"></i> -->
                             </div>       
                         </div>
                         <div class="circle-behind-3">
                             <div class="moving-circle-3">
-                                <i class="fa-solid fa-syringe"></i>
+                                <!-- <i class="fa-solid fa-syringe"></i> -->
                             </div>
                         </div>
-                        <img src="assets/imges/0.png" alt="">
+                        <img src="assets/imges/hero-doctor-1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -97,26 +110,26 @@
                             <input type="text" name="" id="" placeholder="Set your location">
                         </div>
                         <div class="search-btn-div">
-                            <button class="search-btn btn hover-btn"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>                       
+                            <button class="search-btn btn hover-btn"><i class="fa-solid fa-magnifying-glass fa-xl serach-box-btn"></i></button>                       
                         </div>          
                     </div>
                    <h3>You may be looking for</h3>
                    <div class="lookingfor-items">
-                       <button class="closing-btn btn">Family Medicine<i class="fa-solid fa-xmark"></i></button>
-                       <button class="closing-btn btn">Pediatrics<i class="fa-solid fa-xmark"></i></button>
-                       <button class="closing-btn btn">Top Hospital<i class="fa-solid fa-xmark"></i></button>
-                       <button class="closing-btn btn">Telehealth<i class="fa-solid fa-xmark"></i></button>
-                       <button class="closing-btn btn">COVID-19<i class="fa-solid fa-xmark"></i></button>
-                       <button class="closing-btn btn">Orthopedic Surgery<i class="fa-solid fa-xmark"></i></button>
-                       <button class="closing-btn more-btn btn">More</button>
+                       <button class="closing-btn btn hover-btn-2">Family Medicine<i class="fa-solid fa-xmark"></i></button>
+                       <button class="closing-btn btn hover-btn-2">Pediatrics<i class="fa-solid fa-xmark"></i></button>
+                       <button class="closing-btn btn hover-btn-2">Top Hospital<i class="fa-solid fa-xmark"></i></button>
+                       <button class="closing-btn btn hover-btn-2">Telehealth<i class="fa-solid fa-xmark"></i></button>
+                       <button class="closing-btn btn hover-btn-2">COVID-19<i class="fa-solid fa-xmark"></i></button>
+                       <button class="closing-btn btn hover-btn-2">Orthopedic Surgery<i class="fa-solid fa-xmark"></i></button>
+                       <button class="closing-btn more-btn btn hover-btn-2">More</button>
                    </div>
                 </div>
                 
             </div>
 
         </section>
-        <section id="popular-search">
-            <div class="popular-container">
+        <section id="popular-search" class="popular-search">
+            <div class="container">
                 <h2>Popular Searches on Wecare</h2>
                 <div class="popular-wrapper">
                     
@@ -199,10 +212,10 @@
 
                     </div>
                     <div class="find-right-item">
-                        <div class="circle-fill-1"></div>
+                        <!-- <div class="circle-fill-1"></div>
                         <div class="circle-fill-2"></div>
                         <div class="circle-fill-3"></div>
-                        <img src="assets/imges/2-1.png" alt="">
+                        <img src="assets/imges/2-1.png" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -246,13 +259,13 @@
             </div>
         </section>
         <section id="meet-specialist">
-            <div class="meet-container">
+            <div class="container">
                 <div class="meet-wrapper">
                     <h1>
                         Meet our specialist
                     </h1>
                     <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    <div class="doctors-info">
+                    <!-- <div class="doctors-info">
                         <div class="doctor-box">
                             <img src="assets/imges/1.png" alt="">
                             <a href=""><h3>Dr. Leslie Alexander</h3></a>
@@ -293,6 +306,81 @@
                             <a href=""><h3>Dr. Jenny Wilson</h3></a>
                             <p class="meet-para">Intern Dermatologist</p>
                         </div>
+                    </div> -->
+                    <div class="doctors-info">
+                        <figure class="doctor-box">
+                            <img src="assets/imges/1.png" alt="" />
+                            <figcaption>
+                              <h3>Dr. Leslie Alexander</h3>
+                              <p>Dental Surgery</p>
+                              <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/2.png" alt="" />
+                            <figcaption>
+                                <h3>Dr. Kathryn Murphy</h3>
+                                <p>Pediatric Medicine</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/3.png" alt="" />
+                            <figcaption>
+                               <h3>Dr. Robert Fox</h3>
+                                <p>Gastroenterologist</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/9.png" alt="" />
+                            <figcaption>
+                                <h3>Dr. Esther Howard</h3>
+                                <p>Thoracic Surgeon</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/5.png" alt="" />
+                            <figcaption>
+                                <h3>Dr. Albert Flores</h3>
+                                <p>Intern Neurologist</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/6.png" alt="" />
+                            <figcaption>
+                                <h3>Dr. Jerome Bell</h3>
+                                <p>Obstetrician and Gynecologist</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/7.png" alt="" />
+                            <figcaption>
+                                <h3>Dr. Jerome Bell</h3>
+                                <p>Cardiologist</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          <figure class="doctor-box">
+                            <img src="assets/imges/8.png" alt="" />
+                            <figcaption>
+                                <h3>Dr. Jenny Wilson</h3>
+                                <p>Intern Dermatologist</p>
+                                <button class="profile-btn btn hover-btn">View Profile</button>
+                            </figcaption>
+                            
+                          </figure>
+                          
                     </div>
                 </div>
             </div>
@@ -333,7 +421,7 @@
             </div>
         </section>
         <section id="subscribe">
-            <div class="subscribe-container">
+            <div class="container">
                 <div class="subscribe-wrapper">
                   <h1>
                       Subscribe for any news <br>
@@ -353,11 +441,12 @@
                 <div class="footer-col">
                     <img class="footer-logo" src="assets/icons/WeCare-Logo.png" alt="">
                     <div class="social-links">
-                        <a href=""><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
-                        <a href=""><i class="fa-brands fa-skype fa-xl"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="" class="link-1"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                        <a href="" class="link-2"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href="" class="link-3"><i class="fa-brands fa-google-plus-g fa-lg"></i></a>
+                        <a href="" class="link-4"><i class="fa-brands fa-twitter fa-lg"></i></a>
                     </div>  
+
                 </div>
                 <div class="footer-col">
                     <h4>For Patients</h4>
@@ -399,6 +488,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
+
 </html>

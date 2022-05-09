@@ -67,7 +67,7 @@
   color: var(--primary-color);
 }
 /* --------------navbar-hover-effect------------ */
-nav.navbar-nav ul li {
+/* nav.navbar-nav ul li {
     position: relative;
   }
   nav.navbar-nav ul li a:after {
@@ -109,5 +109,26 @@ nav.navbar-nav ul li {
       100% {
         width: 100%;
       }
+} */
+
+
+.navbar-nav ul li a {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 600;
+  overflow: hidden;
+  background: linear-gradient(to right, #014ed5, #014ed5 50%, #102851 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 400ms ease;
+  text-decoration: none; 
 }
+.navbar-nav ul li a:hover {
+  background-position: 0 100%;
+}
+
 

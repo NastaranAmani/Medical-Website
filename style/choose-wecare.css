@@ -19,10 +19,11 @@
     object-fit: cover;
 }
 .choose-right-item h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 4rem;
+    font-weight: 700;
     line-height: 5.5rem;
 }
+
 .check-item {
     display: flex;
     line-height: 3.5rem;
@@ -47,6 +48,7 @@
     height: 410px;
     background-color: #d6dff3;
     border-radius: 40% 10% 10% 10%;
+    box-shadow: 0 0 0 1.9rem var(--light-color), 0 0 0 2rem #205179;
 }
 .fa-circle-check {
     color: var(--primary-color);

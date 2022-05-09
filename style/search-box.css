@@ -5,7 +5,7 @@
 .search-wrapper {  
     position: absolute;
     background-color: var(--white-color);
-    margin: -10rem 10rem 0 10rem;
+    margin: -10rem 10rem 5rem 12rem;
     padding: 5rem 2rem;
     border-radius: 1rem; 
     box-shadow: 0px 4px 15px 4px #D3D1E0;
@@ -25,7 +25,8 @@
 
 }
 .search-input input:focus {
-    border-color: var(--primary-color);
+    
+    box-shadow: 0 0 24px 0 #d2ddef;
 }
 ::placeholder {
     color: var(--secondary-color);
@@ -42,6 +43,10 @@
 .search-btn-div {
     padding-top: 1rem;
 }
+.search-btn:hover {
+    background-color: var(--primaryHover-color);
+}
+
 .closing-btn {
     padding: 1rem 2rem;
     color: var(--dark-color);
@@ -49,7 +54,7 @@
     margin-left: 1rem;
 }
 .closing-btn:hover {
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 .fa-xmark {
     margin-left: 0.5rem;
@@ -68,6 +73,7 @@
     margin: 3rem 0 0 1.5rem;
 }
 
+  
 
 
 
