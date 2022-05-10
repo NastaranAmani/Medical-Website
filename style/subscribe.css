@@ -1,30 +1,33 @@
 #subscribe {
     padding: 8rem 0;
 }
-
 .subscribe-input input {
     font-family: inherit;
     border: 0.1rem solid var(--secondary-color2);
     border-radius: 0.5rem;
-    padding: 1rem 15rem 1rem 2rem;
+    width: 30rem;
+    padding: 1.5rem;
     outline: 0;
 }
 .subscribe-input {
     text-align: center;
+    padding: 1rem;
 }
 .subscribe-btn {
     font-weight: 500;
     color: var(--white-color);
     background-color: var(--primary-color);
-    padding: 0.7rem 1.5rem;
+    padding: 1rem 1.5rem;
     margin-left: -10.5rem;
+
 }
 .subscribe-wrapper {
     align-items: center;
     background-color: var(--primary-color);
     padding: 5rem;
     border-radius: 1rem; 
-    margin: 0 30rem;
+    width: clamp(50%, 25vw, 10rem);
+    margin: 0 auto;
 }
 .subscribe-wrapper h1 {
     text-align: center;

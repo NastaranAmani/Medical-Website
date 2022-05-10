@@ -1,8 +1,7 @@
 #find-doctor {
-    padding: 5rem 0;
+    padding: 4rem 0;
 }
 .find-wrapper {
-    padding-top: 2rem;
     display: flex;
     justify-content: space-around;
 }
@@ -27,12 +26,6 @@
     box-shadow: 0 0 0 1.9rem var(--light-color), 0 0 0 2rem var(--primary-color),
       0 0 0 4.9rem var(--light-color), 0 0 0 5rem var(--dark-color);
 }
-.find-right-item img { 
-    position: relative;
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-}
 .nearest-hospital-title {
     font-size: 2rem;
     font-weight: 600;
@@ -41,14 +34,16 @@
     padding-right: 2rem;
 }
 .nearest-hospital {
-    display: flex;
-    flex-direction: column;
     padding-top: 4rem;
+}
+.nearest-details {
+    display: flex;
 }
 .nearest-search, .nearest-user, .nearest-call {
     padding: 1.5rem;
     border-radius: 5rem;
 }
+
 .nearest-search {
     color: #8e66e7;
     background-color: #eeeefd;
@@ -71,31 +66,3 @@
     line-height: 3rem;
 }
 
-.nearest-details {
-    display: flex;
-}
-
-/* .find-box {
-    margin: -35rem -10rem 0 45rem;
-    padding: 1rem  0.5rem;
-    background-color: var(--white-color);
-    box-shadow: 0px 4px 15px 4px #D3D1E0;
-    border-radius: 1rem;
-    width: 250px;
-    height: 350px;
-    text-align: center;
-}
-.find-box h2 {
-    padding: 0 1rem;
-    font-weight: 600;
-    font-size: 2rem;
-}
-form input {
-    width: 90%;
-    font-family: inherit;
-    border: 0.1rem solid var(--secondary-color2);
-    border-radius: 0.5rem;
-    padding: 1rem 1rem;
-    outline: 0;
-    margin-top: 1rem;
-} */

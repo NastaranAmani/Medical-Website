@@ -1,7 +1,6 @@
 #choose-wecare {
     background-color: var(--accent-color);
-    margin-top: 5rem;
-    padding: 4rem;
+    padding: 4rem 0;
 }
 .choose-wrapper {
     display: flex;
@@ -23,7 +22,6 @@
     font-weight: 700;
     line-height: 5.5rem;
 }
-
 .check-item {
     display: flex;
     line-height: 3.5rem;
@@ -35,11 +33,6 @@
     padding: 1.5rem 3rem;
     margin-top: 2rem;
 }
-/* .check-item img {
-    width: 15px;
-    height: 15px;
-    margin: 0.7rem 0.5rem 0 0;
-} */
 
 .square-fill {
     margin: 10rem 0 0 7rem;

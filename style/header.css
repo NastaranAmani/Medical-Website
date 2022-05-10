@@ -1,6 +1,6 @@
 #header {
-    padding: 1.5rem 5rem 0 5rem;
-    min-height: 11vh;
+    padding: 1rem 5rem;
+    min-height: 10vh;
     background-color: var(--accent-color);
     position: sticky;
     top: 0;
@@ -8,15 +8,14 @@
 }
 .navbar-wrapper {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .navbar-nav {
-    padding-right: 50rem;
-    padding-top: 0.5rem;
+    margin-right: auto;
 }
 .nav-lists {
     display: flex;
-    padding-top: 0.7rem;
+    margin-left: 3rem;
 }
 .nav-lists li:nth-child(2) {
     margin: 0 3rem;
@@ -25,33 +24,13 @@
     color: var(--dark-color);
     font-weight: 600;
 }
-.navbar-logo {
-    display: flex;
-}
+
 .navbar-logo img {
-    width: 140px;
-    height: 50px;
+    width: 15rem;
+    height: 5rem;
     object-fit: contain;
 }
-/* .logo-box {
-    width: 30px;
-    height: 30px;
-    border-radius: 0.5rem;
-    background-color: var(--primary-color);
-    margin-top: 0.8rem;
-}
-.fa-circle-plus {
-    margin-left: 0.5rem;
-    margin-bottom: -0.8rem;
-    color: var(--white-color);
-}
-.logo-title {
-    font-size: 2.3rem;
-    font-weight: 600;
-    color: #294065;
-    margin-left: 1.2rem;
-    padding-top: 0.5rem;
-} */
+
 /* ------------buttons------------- */
 .sign-in {
     color: var(--white-color);
@@ -59,59 +38,15 @@
     padding: 1.5rem 2.5rem;
 }
 .log-in {
-    background: none;
+  background: none;
     color: var(--dark-color);
     padding: 1.5rem 3rem;
 }
 .log-in:hover {
   color: var(--primary-color);
 }
-/* --------------navbar-hover-effect------------ */
-/* nav.navbar-nav ul li {
-    position: relative;
-  }
-  nav.navbar-nav ul li a:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.';
-    color: transparent;
-    background: var(--dark-color);
-    height: 1.5px;
-  }
-  
-  nav.navbar-nav ul li a {
-    transition: all 2s;
-  }
-  
-  nav.navbar-nav ul li a:after {
-    content: '.';
-    margin: 0;
-    opacity: 0;
-  }
-  
-  nav.navbar-nav ul li a:hover:after {
-    animation: fill 1s forwards;
-    -webkit-animation: fill 1s forwards;
-    -moz-animation: fill 1s forwards;
-    opacity: 1;
-}
-@keyframes fill {
-      0% {
-        width: 0%;
-      }
-      50% {
-        width: 100%;
-      }
-      100% {
-        width: 100%;
-      }
-} */
 
-
+/* ---------------navbar-hover--------------- */
 .navbar-nav ul li a {
   position: relative;
   display: inline-block;
