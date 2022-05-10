@@ -3,11 +3,12 @@
     display: flex;
 }
 .search-wrapper {  
-    position: absolute;
+    margin: 0 auto;
+    transform: translateY(-10rem);
     background-color: var(--white-color);
-    margin: -10rem 10rem 5rem 12rem;
     padding: 5rem 2rem;
     border-radius: 1rem; 
+    width: clamp(83%, 25vw, 10rem);
     box-shadow: 0px 4px 15px 4px #D3D1E0;
 }
 .search-wrapper h3 {
