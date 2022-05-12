@@ -2,7 +2,8 @@
     padding: 2rem;
 }
 .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 /*-----------------------logo-----------------------*/
@@ -14,9 +15,6 @@
 }
 
 /*-----------------------columns-----------------------*/
-.footer-col {
-    width: 25%;
-}
 .footer-col h4 {
     font-weight: 600;
     font-size: 1.8rem;
