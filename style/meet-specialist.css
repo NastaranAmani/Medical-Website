@@ -81,7 +81,11 @@
 
 .doctor-box:hover figcaption,
 .doctor-box.hover figcaption {
-  top: 200px;
+  top: 230px;
+}
+.doctor-box:hover img,
+.doctor-box.hover img {
+  background-color: var(--accent-color);
 }
 
 .profile-btn {
