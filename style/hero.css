@@ -24,6 +24,7 @@
 }
 .left-item-boxes {
     display: flex;
+    padding-top: 2rem;
 }
 .hero-box {
     font-size: 1.3rem;
@@ -61,4 +62,5 @@
     position: relative;
     width: 400px;
     height: 400px;
+    margin-top: 2rem;
 }
