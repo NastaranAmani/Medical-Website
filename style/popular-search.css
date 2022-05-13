@@ -10,12 +10,14 @@
 }
 
 .popular-wrapper {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    /* grid-template-columns: repeat(7, 1fr); */
+    gap: 2rem;
 }
 .list {
+    text-align: center;
     font-weight: 600;
-    padding-right: 2rem;
     border-right: 0.3rem solid #1e3799;
     line-height: 6rem;
 }
@@ -23,10 +25,11 @@
   color: var(--secondary-color);
 }
 .popular-box {
-    width: 180px;
-    height: 180px;
-    text-align: center;
-    padding: 2rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
     border-radius: 1rem;
     background-color: var(--white-color);
 }
@@ -75,6 +78,8 @@
             box-shadow: 0 0 20px 0px #D3D1E0;
   }
 }
+
+
 
 
   
