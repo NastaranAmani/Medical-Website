@@ -1,11 +1,11 @@
-# Medical Website Landing Page
+# Medical Website Landing Page :stethoscope:
 
 <div id="top"></div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">.: Wecare :stethoscope: :.</h3>
+  <h3 align="center">.: Wecare :.</h3>
 
   <p align="center">
      <br />
