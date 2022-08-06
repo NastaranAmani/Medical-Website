@@ -1,6 +1,7 @@
 
 .search-total {
     display: flex;
+    justify-content: center;
 }
 .search-wrapper {  
     margin: 0 auto;
@@ -17,7 +18,7 @@
     padding: 2rem 0 2rem 1.5rem;
 }
 .search-input input {
-    width: 550px;
+    width: 45rem;
     font-family: inherit;
     border: 0.1rem solid var(--secondary-color2);
     border-radius: 0.5rem;

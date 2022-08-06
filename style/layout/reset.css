@@ -44,11 +44,9 @@ a {
     color: var(--dark-color);
 }
 .container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: min(90%, 160rem);
+    margin: 0 auto;
+    padding: 0 auto;
 }
 .btn {
     font-family: inherit;
