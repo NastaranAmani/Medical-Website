@@ -9,14 +9,14 @@
 
   <p align="center">
      <br />
-    <a href="https://nastaranamani.github.io/Medical-Website-Landing-Page/
+    <a href="https://nastaranamani.github.io/Medical-Website/
 " target="_blank"><strong>View Live</strong></a>
        <br />
        <br />
     ·
-    <a href="https://github.com/NastaranAmani/Medical-Website-Landing-Page/issues">Report Bug</a>
+    <a href="https://github.com/NastaranAmani/Medical-Website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/NastaranAmani/Medical-Website-Landing-Page/issues">Request Feature</a>
+    <a href="https://github.com/NastaranAmani/Medical-Website/issues">Request Feature</a>
   </p>
 </div>
 
